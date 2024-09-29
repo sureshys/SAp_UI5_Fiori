@@ -8,7 +8,7 @@
         id="page"
         title="{i18n>title}"
     >
-        <Table id="table1">
+        <Table id="idProducts" items="{/results}">
             <columns>
                 <Column>
                     <Text text="Id" />
